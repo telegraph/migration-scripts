@@ -1,0 +1,15 @@
+/page/path/of/jcr/location1
+/page/path/of/jcr/location2
+/page/path/of/jcr/location3
+/page/path/of/jcr/location4
+/page/path/of/jcr/location5
+/page/path/of/jcr/location6
+/page/path/of/jcr/location7
+/page/path/of/jcr/location8
+/page/path/of/jcr/location9
+/page/path/of/jcr/location10
+
+
+
+
+
