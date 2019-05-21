@@ -1,0 +1,3 @@
+/jcr/location/of/the/page1
+/jcr/location/of/the/page2
+/jcr/location/of/the/page3
