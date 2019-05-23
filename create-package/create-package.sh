@@ -1,19 +1,20 @@
 #!/bin/bash
+# Passwords are dummy passwords.
 
 # -------- CONFIG --------
-#INPUT_FILE="./input/input-urls.txt"
-#OUTPUT_FILE="./output"
-#PACKAGE_NAME="backup-pages-24012019"
-#CHUNKS=500
-#USERNAME="admin"
-#PASSWORD="$(pass CQ_Admin)"
-#PROTOCOL="http://"
-#HOST="localhost"
-#PORT="4502"
-#DELETE_MODE="false"
-#SINGLE_PACKAGE_MODE="false"
-#TEMP_FILE="tmp.txt"
-#LOG_FILE="info.log"
+INPUT_FILE="./input/input-urls.txt"
+OUTPUT_FILE="./output"
+PACKAGE_NAME="backup-pages-24012019"
+CHUNKS=500
+USERNAME="admin"
+PASSWORD="PASSWORD"
+PROTOCOL="http://"
+HOST="localhost"
+PORT="4502"
+DELETE_MODE="false"
+SINGLE_PACKAGE_MODE="false"
+TEMP_FILE="tmp.txt"
+LOG_FILE="info.log"
 # -------- CONFIG --------
 
 
