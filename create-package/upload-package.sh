@@ -4,13 +4,13 @@
 # -------- CONFIG --------
 INPUT_FILE="./input/input-urls.txt"
 OUTPUT_FILE="./output"
-PACKAGE_NAME="travel_pages_2020"
+PACKAGE_NAME="travel_pages_test"
 CHUNKS=108
 USERNAME="admin"
 PASSWORD="admin"
 PROTOCOL="http://"
 HOST="localhost"
-PORT="6502"
+PORT="4502"
 DELETE_MODE="false"
 SINGLE_PACKAGE_MODE="false"
 TEMP_FILE="tmp.txt"
@@ -54,22 +54,12 @@ processTmp () {
 
         cp "${OUTPUT_FILE}/tmp.txt" "${OUTPUT_FILE}/${packageName}.txt"
         
-        filters=$(getFilters "${OUTPUT_FILE}/tmp.txt" "${packageName}")
-
-		printf "${packageName} created\n"
-		curl -u "${USERNAME}":"${PASSWORD}" -X POST "${PROTOCOL}${HOST}:${PORT}/crx/packmgr/service/.json/etc/packages/my_packages/${PACKAGE_NAME}?cmd=create" -d packageName="${packageName}" -d groupName=my_packages
+        printf "${packageName} uploaded\n"
+		curl -u "${USERNAME}":"${PASSWORD}" -F file=@"${OUTPUT_FILE}/${packageName}".zip -F name="${packageName}" -F force=true -F install=false ${PROTOCOL}${HOST}:${PORT}/crx/packmgr/service.jsp
 		printf "\n"
 
-		printf "${packageName} filters \n"
-		curl -u "${USERNAME}":"${PASSWORD}" -X POST "${PROTOCOL}${HOST}:${PORT}/crx/packmgr/update.jsp" -F path="/etc/packages/my_packages/${packageName}".zip -F packageName="${packageName}" -F groupName=my_packages -F filter="[${filters}]" -F '_charset_=UTF-8'
-		printf "\n"
-
-		printf "${packageName} build\n"
-		curl -u "${USERNAME}":"${PASSWORD}" -X POST "${PROTOCOL}${HOST}:${PORT}/crx/packmgr/service/.json/etc/packages/my_packages/${packageName}.zip?cmd=build"
-		printf "\n"
-
-		printf "${packageName} downloaded\n"
-		curl -s -o "${OUTPUT_FILE}/${packageName}.zip" -u "${USERNAME}":"${PASSWORD}" "${PROTOCOL}${HOST}:${PORT}/crx/packmgr/download.jsp?_charset_=utf-8&path=/etc/packages/my_packages/${packageName}.zip"
+        printf "${packageName} installed\n"
+		curl -u "${USERNAME}":"${PASSWORD}" -F file=@"${OUTPUT_FILE}/${packageName}".zip -F name="${packageName}" -F force=true -F install=true ${PROTOCOL}${HOST}:${PORT}/crx/packmgr/service.jsp
 		printf "\n"
 
 		echo "---- END - processing batch $batchNumber of $CHUNKS rows -----"
@@ -104,3 +94,5 @@ then
 	deleteFile "${OUTPUT_FILE}/${TEMP_FILE}"
 fi;
 echo "END"
+
+
