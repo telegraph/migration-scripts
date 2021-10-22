@@ -4,7 +4,7 @@
 # -------- CONFIG --------
 INPUT_FILE="./input/input-urls.txt"
 OUTPUT_FILE="./output/a2-backup"
-PACKAGE_NAME="a2-backup-17-09-2021"
+PACKAGE_NAME="a2-backup-01-10-2021"
 CHUNKS=950
 USERNAME="admin"
 PASSWORD="Telegraphpreprod!"
