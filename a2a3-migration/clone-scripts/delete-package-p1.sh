@@ -2,14 +2,16 @@
 # Cleanup : Passwords are dummy passwords. Delete packages from server
 
 # -------- CONFIG --------
-PACKAGE_NAME="unedited-topic-pages"
+#PACKAGE_NAME="a2-backup-p1-29-07-2021"
+PACKAGE_NAME="a2-backup-p1-25-11-2021"
+#PACKAGE_NAME="a3-migrated-p1-30-06-2021"
 USERNAME="admin"
 PASSWORD="Telegraphpreprod!"
 HOST="pub.aem-qa11.platforms-preprod-gcp.telegraph.co.uk"
 PROTOCOL="http://"
 PORT="4503"
 DELETE_MODE="true"
-NUMBER_OF_PACKAGES="35"
+NUMBER_OF_PACKAGES="30"
 # -------- CONFIG --------
 
 

@@ -3,8 +3,8 @@
 # Passwords are dummy passwords.
 
 # -------- CONFIG --------
-OUTPUT_TMP="./../output/a2-backup-p1"
-PACKAGE_NAME="<PACKAGE_NAME>"
+OUTPUT_TMP="./../output/a3-migrated-p1"
+PACKAGE_NAME="a3-migrated-non-supported-part2-p1-08-03-2022"
 USERNAME="<USERNAME>"
 PASSWORD="<PASSWORD>"
 HOST="<HOST>"

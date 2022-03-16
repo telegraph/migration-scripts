@@ -5,7 +5,7 @@
 TODAYS_DATE=$(date +"%d-%m-%Y")
 INPUT_FILE="./input/input-urls.txt"
 OUTPUT_FILE="./output/a3-migrated"
-PACKAGE_NAME="a3-migrated-$TODAYS_DATE"
+PACKAGE_NAME="a2-backup-online-dating-$TODAYS_DATE"
 CHUNKS=950
 USERNAME="telegraph"
 PASSWORD="8dOWF3aO+K%w9tNe]>wn*?Tc"

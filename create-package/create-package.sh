@@ -4,13 +4,13 @@
 # -------- CONFIG --------
 INPUT_FILE="./input/input-urls.txt"
 OUTPUT_FILE="./output"
-PACKAGE_NAME="travel_pages_2020"
-CHUNKS=108
-USERNAME="admin"
-PASSWORD="admin"
+PACKAGE_NAME="hub-sponsored-pages-15-03-2022"
+CHUNKS=950
+USERNAME="telegraph"
+PASSWORD="8dOWF3aO+K%w9tNe]>wn*?Tc"
 PROTOCOL="http://"
-HOST="localhost"
-PORT="6502"
+HOST="10.38.10.54"
+PORT="4502"
 DELETE_MODE="false"
 SINGLE_PACKAGE_MODE="false"
 TEMP_FILE="tmp.txt"

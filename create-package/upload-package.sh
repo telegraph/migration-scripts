@@ -4,12 +4,12 @@
 # -------- CONFIG --------
 INPUT_FILE="./input/input-urls.txt"
 OUTPUT_FILE="./output"
-PACKAGE_NAME="travel_pages_test"
-CHUNKS=108
+PACKAGE_NAME="hub-sponsored-pages-15-03-2022"
+CHUNKS=950
 USERNAME="admin"
-PASSWORD="admin"
+PASSWORD="Telegraphpreprod!"
 PROTOCOL="http://"
-HOST="localhost"
+HOST="cms.aem-qa11.platforms-preprod-gcp.telegraph.co.uk"
 PORT="4502"
 DELETE_MODE="false"
 SINGLE_PACKAGE_MODE="false"

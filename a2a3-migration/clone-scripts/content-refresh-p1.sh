@@ -4,7 +4,7 @@
 # -------- CONFIG --------
 INPUT_FILE="./input/input-urls-p1.txt"
 OUTPUT_FILE="./output/a2-backup-p1"
-PACKAGE_NAME="a2-backup-p1-01-10-2021"
+PACKAGE_NAME="a2-backup-non-supported-part2-p1-07-03-2022"
 CHUNKS=950
 USERNAME="admin"
 PASSWORD="Telegraphpreprod!"
@@ -74,7 +74,9 @@ processTmp () {
         cp "${OUTPUT_FILE}/tmp.txt" "${OUTPUT_FILE}/${packageName}.txt"
         
           printf "${packageName} uploaded in the host ${HOST} \n"
+	  printf "curl -u "${USERNAME}":"${PASSWORD}" -F file=@"${OUTPUT_FILE}/${packageName}".zip -F name="${packageName}" -F force=true -F install=false ${PROTOCOL}${HOST}:${PORT}/crx/packmgr/service.jsp "
 		curl -u "${USERNAME}":"${PASSWORD}" -F file=@"${OUTPUT_FILE}/${packageName}".zip -F name="${packageName}" -F force=true -F install=false ${PROTOCOL}${HOST}:${PORT}/crx/packmgr/service.jsp
+
 		printf "\n"
 
           printf "${packageName} installed in the host ${HOST} \n"
