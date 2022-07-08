@@ -9,7 +9,7 @@ PAGES_TO_REMOVE_FILE="./input/pages_to_remove.txt"
 
 
 USERNAME="telegraph"
-PASSWORD="<PASSWORD>"
+PASSWORD="8dOWF3aO+K%w9tNe]>wn*?Tc"
 HOST="10.38.10.9"
 PORT="4503"
 PROTOCOL="http://"

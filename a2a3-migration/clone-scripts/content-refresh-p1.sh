@@ -4,7 +4,7 @@
 # -------- CONFIG --------
 INPUT_FILE="./input/input-urls-p1.txt"
 OUTPUT_FILE="./output/a2-backup-p1"
-PACKAGE_NAME="a2-backup-non-supported-part2-p1-07-03-2022"
+PACKAGE_NAME="a2-backup-6th-batch-hub-child-a2-pages-p1-09-05-2022"
 CHUNKS=950
 USERNAME="admin"
 PASSWORD="Telegraphpreprod!"
