@@ -1,0 +1,8 @@
+/content/telegraph/travel/destinations/asia/maldives/hotels/anantara-dhigu-maldives-resort-hotel/jcr:content
+/content/telegraph/travel/destinations/asia/maldives/hotels/conrad-maldives-rangali-island-hotel/jcr:content
+/content/telegraph/travel/destinations/asia/maldives/hotels/dusit-thani-maldives-hotel/jcr:content
+/content/telegraph/travel/destinations/asia/maldives/hotels/four-seasons-resort-maldives-at-kuda-huraa-hotel/jcr:content
+/content/telegraph/travel/destinations/asia/maldives/hotels/four-seasons-resort-maldives-at-landaa-giraavaru-hotel/jcr:content
+/content/telegraph/travel/destinations/asia/maldives/hotels/lux-north-male-atoll/jcr:content
+/content/telegraph/travel/destinations/asia/maldives/hotels/meeru-island-resort-and-spa-hotel/jcr:content
+/content/telegraph/travel/destinations/asia/maldives/hotels/soneva-fushi-hotel/jcr:content
