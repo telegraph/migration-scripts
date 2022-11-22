@@ -3,7 +3,7 @@
 
 # -------- CONFIG --------
 TODAYS_DATE=$(date +"%d-%m-%Y")
-INPUT_FILE="./input/input-urls.txt"
+INPUT_FILE="./input/input-urls-productteaserpack-22-11-2022.txt"
 OUTPUT_FILE="./output"
 PACKAGE_NAME="travel-index-productTeaserPack-$TODAYS_DATE"
 CHUNKS=950
